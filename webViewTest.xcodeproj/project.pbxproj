@@ -12,6 +12,7 @@
 		3B4FFDC023B4937500232867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4FFDBE23B4937500232867 /* Main.storyboard */; };
 		3B4FFDC223B4937E00232867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4FFDC123B4937E00232867 /* Assets.xcassets */; };
 		3B4FFDC523B4937E00232867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4FFDC323B4937E00232867 /* LaunchScreen.storyboard */; };
+		3B69179323B5D9F500A5F281 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B69179223B5D9F500A5F281 /* Artwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		3B4FFDC123B4937E00232867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B4FFDC423B4937E00232867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B4FFDC623B4937E00232867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4FFDCD23B497AB00232867 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3B69179223B5D9F500A5F281 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 			children = (
 				3B4FFDB923B4937500232867 /* webViewTest */,
 				3B4FFDB823B4937500232867 /* Products */,
+				3B4FFDCC23B497AB00232867 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +64,17 @@
 				3B4FFDC123B4937E00232867 /* Assets.xcassets */,
 				3B4FFDC323B4937E00232867 /* LaunchScreen.storyboard */,
 				3B4FFDC623B4937E00232867 /* Info.plist */,
+				3B69179223B5D9F500A5F281 /* Artwork.swift */,
 			);
 			path = webViewTest;
+			sourceTree = "<group>";
+		};
+		3B4FFDCC23B497AB00232867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4FFDCD23B497AB00232867 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4FFDBD23B4937500232867 /* ViewController.swift in Sources */,
+				3B69179323B5D9F500A5F281 /* Artwork.swift in Sources */,
 				3B4FFDBB23B4937500232867 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
